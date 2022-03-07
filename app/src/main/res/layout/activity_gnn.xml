@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".GnnActivity"
+    android:layout_marginStart="20dp"
+    android:layout_marginLeft="20dp">
+
+        <LinearLayout
+        android:layout_width="105dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        tools:context=".GnnActivity">
+        <TextView
+            android:id="@+id/WALKING_picture"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/walking" />
+
+        <TextView
+            android:id="@+id/WALKING_UPSTAIRS_picture"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/upstair" />
+
+        <TextView
+            android:id="@+id/WALKING_DOWNSTAIRS_picture"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/downstair" />
+        <TextView
+            android:id="@+id/SITTING_picture"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/sitting" />
+        <TextView
+            android:id="@+id/STANDING_picture"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/standing" />
+        <TextView
+            android:id="@+id/LAYING_picture"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/laying" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="13dp"
+        tools:context=".GnnActivity">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_light"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:text="Result of GNN"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/WALKING_TextView"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:text="walking"/>
+
+        <TextView
+            android:id="@+id/WALKING_UPSTAIRS_TextView"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:textSize="22sp"
+            android:text="upstairs"/>
+
+        <TextView
+            android:id="@+id/WALKING_DOWNSTAIRS_TextView"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:textSize="22sp"
+            android:text="downstairs"
+            android:textColor="@android:color/background_dark"/>
+        <TextView
+            android:id="@+id/SITTING_TextView"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:textSize="22sp"
+            android:textColor="@android:color/background_dark"/>
+        <TextView
+            android:id="@+id/STANDING_TextView"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:textSize="22sp"
+            android:textColor="@android:color/background_dark"/>
+
+        <TextView
+            android:id="@+id/LAYING_TextView"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:textSize="22sp"
+            android:textColor="@android:color/background_dark"/>
+    </LinearLayout>
+    </LinearLayout>
+
