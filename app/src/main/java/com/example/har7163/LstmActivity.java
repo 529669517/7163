@@ -131,7 +131,7 @@ public class LstmActivity extends AppCompatActivity implements SensorEventListen
 
         float[][]two_dim_array = toFloatTwoDimArray(data);
 
-        float [][][] input = new float[1][128][6];
+        float [][][] input = new float[1][128][9];
         input[0] = two_dim_array;
 
         float [][] prediction_results = new float[1][6];
