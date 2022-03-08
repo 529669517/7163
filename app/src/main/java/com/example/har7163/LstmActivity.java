@@ -162,7 +162,7 @@ public class LstmActivity extends AppCompatActivity implements SensorEventListen
     }
 
     private MappedByteBuffer loadModelFile() throws IOException {
-        AssetFileDescriptor fileDescriptor = this.getAssets().openFd("model.tflite");
+        AssetFileDescriptor fileDescriptor = this.getAssets().openFd("lstm.tflite");
         FileInputStream inputStream = new  FileInputStream(fileDescriptor.getFileDescriptor());
         FileChannel fileChannel = inputStream.getChannel();
         long startOffset = fileDescriptor.getStartOffset();
