@@ -1,5 +1,4 @@
 //Kaiyi Zhang (300070775)
-
 package com.example.har7163;
 
 import androidx.appcompat.app.AppCompatActivity;
