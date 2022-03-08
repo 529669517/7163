@@ -19,7 +19,6 @@ Kaiyi:
 * Train an LSTM model
 * Deploy the LSTM model on Android
 * Android application UI
-
 <br />
 <br />
 
@@ -32,7 +31,6 @@ Required Packages
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation 'org.tensorflow:tensorflow-lite:+'
-
 
 <br />
 <br />
