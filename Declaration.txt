@@ -1,0 +1,1 @@
+Hello, the code about reading x, y, z axes data from the Android smartphone accelerometer and gyroscope is from the Youtube video: https://www.youtube.com/watch?v=_OJpKnFqUes&t=526s&ab_channel=DevelopersHutt. 

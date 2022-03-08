@@ -1,5 +1,4 @@
 //Jiacheng Hou (300125708)
-//jhou013@uottawa.ca
 
 package com.example.har7163;
 
