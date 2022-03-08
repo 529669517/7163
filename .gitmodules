@@ -1,3 +1,6 @@
 [submodule "CSI7163_GNN"]
 	path = CSI7163_GNN
 	url = https://github.com/Jiacheng98/CSI7163_GNN.git
+[submodule "HAR_LSTM"]
+	path = HAR_LSTM
+	url = https://github.com/529669517/HAR_LSTM
